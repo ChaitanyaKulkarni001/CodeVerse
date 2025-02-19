@@ -72,4 +72,4 @@ We welcome contributions! To improve this app:
 
 If you have suggestions, feel free to reach out:  
 - ✉️ **Email:** kulkarnichaitanya001@gmail.com  
-- 🌐 **LinkedIn:** [https://www.linkedin.com/in/chaitanyaskulkarni/](#)  
+- 🌐 **LinkedIn:** [Click Here](https://www.linkedin.com/in/chaitanyaskulkarni/)  
