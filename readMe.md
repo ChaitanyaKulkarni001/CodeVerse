@@ -31,17 +31,9 @@ When you select a course, you'll access:
 
 ## 🖼️ App Screenshots  
 
-### 1️⃣ **Login Page**  
-![Login Screen](https://github.com/ChaitanyaKulkarni001/CodeVerse/blob/main/readMeSS/Login.jpg)  
-
-### 2️⃣ **Register Page**  
-![Register Screen](https://github.com/ChaitanyaKulkarni001/CodeVerse/blob/main/ReadMeSS/Register.jpg)  
-
-### 3️⃣ **Course Selection**  
-![Course Page](https://github.com/ChaitanyaKulkarni001/CodeVerse/blob/main/ReadMeSS/CourseInterface.jpg)  
-
-### 4️⃣ **Inside a Course**  
-![Inside Course](https://github.com/ChaitanyaKulkarni001/CodeVerse/blob/main/ReadMeSS/InsideCOursejpg.jpg)  
+| Login Page | Register Page | Course Selection | Inside a Course |
+|------------|--------------|------------------|----------------|
+| ![Login Screen](readMeSS/Login.jpg) | ![Register Screen](readMeSS/Register.jpg) | ![Course Page](readMeSS/CourseInterface.jpg) | ![Inside Course](readMeSS/InsideCOursejpg.jpg) |
 
 ---
 
