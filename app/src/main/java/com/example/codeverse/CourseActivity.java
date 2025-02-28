@@ -3,6 +3,9 @@ package com.example.codeverse;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.WebViewClient;
+import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -35,7 +38,7 @@ public class CourseActivity extends AppCompatActivity {
         }
 
         // Handle ViewNotes button click
-        TextView viewNotes = findViewById(R.id.ViewNotes);
+        LinearLayout viewNotes = findViewById(R.id.ViewNotes);
         viewNotes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -47,7 +50,7 @@ public class CourseActivity extends AppCompatActivity {
 
 //        TextView WatchTutor = findViewById(R.id.WatchTutorials);
 
-        TextView watchTutorials = findViewById(R.id.WatchTutorials);
+        LinearLayout watchTutorials = findViewById(R.id.WatchTutorials);
         watchTutorials.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -56,6 +59,24 @@ public class CourseActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+        // Handle Practise Problem button
+        LinearLayout practiseProblems = findViewById(R.id.practiceButton);
+        practiseProblems.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(CourseActivity.this, PractiseProblems.class);
+                intent.putExtra("COURSE_NAME", courseName);
+                startActivity(intent);
+            }
+        });
+        LinearLayout takeQuiz = findViewById(R.id.quizButton);
+        takeQuiz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(CourseActivity.this, TakeQuiz.class);
+                intent.putExtra("COURSE_NAME", courseName);
+                startActivity(intent);
+            }
+        });
     }
 }

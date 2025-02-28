@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -49,6 +50,17 @@ public class Login extends AppCompatActivity {
                 } else {
                     Toast.makeText(Login.this, "Invalid email or password", Toast.LENGTH_SHORT).show();
                 }
+            }
+        });
+
+        TextView registerText = findViewById(R.id.registerText);
+        registerText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Login.this, Register.class);
+//                intent.putExtra("COURSE_NAME", courseName);
+                startActivity(intent);
+
             }
         });
     }

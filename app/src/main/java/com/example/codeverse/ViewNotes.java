@@ -32,10 +32,10 @@ public class ViewNotes extends AppCompatActivity {
                 return "https://docs.google.com/gview?embedded=true&url=https://www.vssut.ac.in/lecture_notes/lecture1424354156.pdf";
             case "C++":
                 Toast.makeText(this, "Please wait while loading ...", Toast.LENGTH_SHORT).show();
-                return "https://docs.google.com/gview?embedded=true&url=https://documents.uow.edu.au/~akheng/WORKSHOP/C++%20Course%20Notes.pdf";
+                return "https://drive.google.com/file/d/0B4FvMgXYrsyANHp6VGhwYldQTVU/view?resourcekey=0-atzZq8eX2s2EWPgqNd_iEA";
             case "Java":
                 Toast.makeText(this, "Please wait while loading ...", Toast.LENGTH_SHORT).show();
-                return "https://docs.google.com/gview?embedded=true&url=https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/notes/Java_Complete_Notes.pdf";
+                return "https://drive.google.com/file/d/1TQwa6iLSPJyyvmimugZ4Nizc7qjc0psw/edit";
             case "Python":
                 Toast.makeText(this, "Please wait while loading ...", Toast.LENGTH_SHORT).show();
                 return "https://docs.google.com/gview?embedded=true&url=https://mrcet.com/downloads/digital_notes/CSE/III%20Year/PYTHON%20PROGRAMMING%20NOTES.pdf";

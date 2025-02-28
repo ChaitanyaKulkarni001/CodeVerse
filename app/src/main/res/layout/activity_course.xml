@@ -25,10 +25,10 @@
         android:layout_marginBottom="12dp"
         android:clickable="true"
         android:focusable="true"
-        android:id="@+id/notesButton">
+        android:id="@+id/ViewNotes">
 
         <TextView
-            android:id="@+id/ViewNotes"
+            android:id="@+id/ViewNotes2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="📖 View Notes"
@@ -46,10 +46,10 @@
         android:layout_marginBottom="12dp"
         android:clickable="true"
         android:focusable="true"
-        android:id="@+id/tutorialButton">
+        android:id="@+id/WatchTutorials">
 
         <TextView
-            android:id="@+id/WatchTutorials"
+            android:id="@+id/WatchTutorials2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="🎥 Watch Tutorials"
@@ -79,6 +79,7 @@
     </LinearLayout>
 
     <LinearLayout
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"

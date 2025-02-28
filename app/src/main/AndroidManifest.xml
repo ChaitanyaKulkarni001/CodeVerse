@@ -30,6 +30,10 @@
         <activity android:name=".CourseActivity" android:exported="true"/>
         <activity android:name=".ViewNotes" android:exported="true"/>
         <activity android:name=".WatchTutor" android:exported="true"/>
+        <activity android:name=".PractiseProblems" android:exported="true"/>
+        <activity android:name=".TakeQuiz" android:exported="true"/>
+
+
 
 
 

@@ -29,6 +29,22 @@ When you select a course, you'll access:
 
 ---
 
+## 🖼️ App Screenshots  
+
+### 1️⃣ **Login Page**  
+![Login Screen](ReadMeSS/Login.jpg)  
+
+### 2️⃣ **Register Page**  
+![Register Screen](ReadMeSS/Register.jpg)  
+
+### 3️⃣ **Course Selection**  
+![Course Page](ReadMeSS/CourseInterface.jpg)  
+
+### 4️⃣ **Inside a Course**  
+![Inside Course](ReadMeSS/InsideCOursejpg.jpg)  
+
+---
+
 ## 🚀 Technologies Used  
 - **Java** — For Android app development  
 - **XML** — Designing user interfaces  
