@@ -73,7 +73,6 @@ We welcome contributions! To improve this app:
 2. Create a new branch (`feature-branch`).  
 3. Commit your changes.  
 4. Push to your fork and submit a pull request.  
-
 ---
 
 ## 📧 Contact  
